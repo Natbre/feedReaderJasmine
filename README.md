@@ -9,7 +9,7 @@ In this project you are given a web-based application that reads RSS feeds. The 
 
 # Installation
 
-You can downlowad the original project from [required project assets](http://github.com/udacity/frontend-nanodegree-feedreader).
+You can downlowad the original project from [required project assets](http://github.com/udacity/frontend-nanodegree-feedreader). In order to run tests please open the index.html file in the browser.
 
 
 # What is being tested?
@@ -20,5 +20,5 @@ You can downlowad the original project from [required project assets](http://git
 * Testing that menu from default is hidden
 * Testing changining of menu visability after click
 * Testing if allFeed has at leat one '.entry' within '.feed.' container
-* Testing the content of the new feed 
+* Testing if feed container is having atleast 1 entry element inside it
 

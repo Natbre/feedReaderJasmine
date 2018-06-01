@@ -21,4 +21,5 @@ You can downlowad the original project from [required project assets](http://git
 * Testing changining of menu visability after click
 * Testing if allFeed has at leat one '.entry' within '.feed.' container
 * Testing if feed container is having atleast 1 entry element inside it
+* Testing if one feed is different from the other
 

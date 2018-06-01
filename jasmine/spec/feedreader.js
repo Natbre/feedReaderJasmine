@@ -71,11 +71,11 @@ $(function() {
         beforeEach(function(done) {
             $('.feed').empty();
             loadFeed(0, function() {
-                prevFeedData = $('.feed').find(allFeeds.url);
+                prevFeedData = $('.feed').html();
                 done();
             });
             loadFeed(1, function() {
-                newFeedData = $('.feed').find(allFeeds.url);
+                newFeedData = $('.feed').html();
                 done();
             });
             

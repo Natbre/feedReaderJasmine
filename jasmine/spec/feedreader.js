@@ -71,14 +71,12 @@ $(function() {
         beforeEach(function(done) {
             $('.feed').empty();
             loadFeed(0, function() {
-                prevFeedData = $('.feed').html();
-                done();
-            });
+                prevFeedData = $('.feed').html();               
             loadFeed(1, function() {
                 newFeedData = $('.feed').html();
                 done();
             });
-            
+            });
         });
         it('different feed', function() {
             expect(prevFeedData).not.toBe(newFeedData);
